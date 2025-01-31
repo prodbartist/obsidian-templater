@@ -9,6 +9,10 @@
 - [커맨드스페이스 월간 옵시디언 1회차 - 옵시디언의 AI 활용](https://youtu.be/GXVh4JI2xd8?si=4649TyzEmEkoraCj)
 - [안피곤의 성장블로그](https://anpigon.tistory.com/484)
 
+**데모 영상**
+
+[![Obsidian Templater 데모 영상](https://img.youtube.com/vi/z5Zo6vrYdFk/sddefault.jpg)](https://youtu.be/z5Zo6vrYdFk?si=VFzQRcIgJs2b7qjj)
+
 ## 준비사항
 
 - [Obsidian](https://obsidian.md/download)
@@ -34,7 +38,7 @@
 
 ## Templater 설치 및 활용 강의(YouTube)
 
-[![Templater 설치 및 활용 강의](https://i3.ytimg.com/vi/GXVh4JI2xd8/hqdefault.jpg)](https://youtu.be/GXVh4JI2xd8?si=GLw67A1-CL2vN1mk&t=5219)
+[![Templater 설치 및 활용 강의](https://img.youtube.com/vi/GXVh4JI2xd8/sddefault.jpg)](https://youtu.be/GXVh4JI2xd8?si=GLw67A1-CL2vN1mk&t=5219)
 
 ## License
 
