@@ -102,7 +102,7 @@ async function generateTags(content) {
                 "Authorization": `Bearer ${OPENAI_API_KEY}`,
             },
             body: JSON.stringify({
-                model: "gpt-4",
+                model: "gpt-4o",
                 messages: [
                     { "role": "system", "content": tag_prompt },
                     { "role": "user", "content": `Here is the content of the note:\n${content}` }
