@@ -27,6 +27,14 @@
 4. [Index](./templates/Template-04-Index.md): 목차 리스트를 GPT 가 자동으로 생성. 생성된 목차는 Obsidian Index 노트와 연결
 5. [Tag](./templates/Template-05-Tag.md): 본문의 내용을 참고하여 태그 리스트를 GPT 가 자동으로 생성. 1~10개
 6. [Summary](./templates/Template-06-Summary.md): 본문의 내용을 참고하여 요약 문장을 GPT 가 자동으로 생성. Bullet 형식으로 생성
+7. [Custom Prompt](./templates/Template-07-Custom-Prompt.md): 사용자가 직접 프롬프트를 입력하여 사용
+8. [Dify](./templates/Template-10-Dify-Chat-Simple.md): Dify 챗봇 연동
+9. [Dify](./templates/Template-11-Dify-Chat-Custom-Prompt.md): Dify 챗봇 연동(커스텀 프롬프트)
+10. [Dify](./templates/Template-12-Dify-Chat-With-Inputs.md): Dify 챗봇 연동(입력 변수 사용)
+11. [Dify](./templates/Template-13-Dify-Agent.md): Dify 에이전트 연동
+12. [Dify](./templates/Template-14-Dify-Agent-News.md): Dify 뉴스 에이전트 연동
+13. [Dify](./templates/Template-15-Dify-WorkFlow.md): Dify RAG 워크플로우 연동
+14. [Dify](./templates/Template-16-Dify-WorkFlow-Web-Research.md): Dify RAG 워크플로우 연동(웹 리서치 보고서 작성)
 
 ## 예시
 
