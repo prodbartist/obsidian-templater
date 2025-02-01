@@ -11,7 +11,13 @@
 
 **데모 영상**
 
-[![Obsidian Templater 데모 영상](https://img.youtube.com/vi/z5Zo6vrYdFk/sddefault.jpg)](https://youtu.be/z5Zo6vrYdFk?si=VFzQRcIgJs2b7qjj)
+**Obsidian + Dify 연동하여 RAG / Agent / Workflow 사용하기**
+
+[![Obsidian + Dify 연동하여 RAG / Agent / Workflow 사용하기](https://img.youtube.com/vi/zdEev8vT_zg/sddefault.jpg)](https://youtu.be/zdEev8vT_zg?si=4wfeGHfjRDK29m_e)
+
+**Obsidian Templater 를 활용한 메타데이터, 제목, 요약 자동화**
+
+[![Obsidian Templater 를 활용한 메타데이터, 제목, 요약 자동화](https://img.youtube.com/vi/z5Zo6vrYdFk/sddefault.jpg)](https://youtu.be/z5Zo6vrYdFk?si=VFzQRcIgJs2b7qjj)
 
 ## 준비사항
 
