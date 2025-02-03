@@ -1,0 +1,116 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: agent-chat
+  name: '[Obsidian] Agent (Web Search)'
+  use_icon_as_answer_icon: false
+kind: app
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    prompt: null
+    strategy: function_call
+    tools:
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: tavily
+      provider_name: tavily
+      provider_type: builtin
+      tool_name: tavily_search
+      tool_parameters:
+        days: 3
+        exclude_domains: null
+        include_answer: 0
+        include_domains: null
+        include_image_descriptions: 0
+        include_images: 0
+        include_raw_content: 0
+        max_results: '8'
+        query: null
+        search_depth: advanced
+        topic: news
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets: []
+    reranking_enable: false
+    retrieval_model: multiple
+    top_k: 4
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    allowed_file_extensions:
+    - .JPG
+    - .JPEG
+    - .PNG
+    - .GIF
+    - .WEBP
+    - .SVG
+    - .MP4
+    - .MOV
+    - .MPEG
+    - .MPGA
+    allowed_file_types: []
+    allowed_file_upload_methods:
+    - remote_url
+    - local_file
+    enabled: false
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+    number_limits: 3
+  model:
+    completion_params:
+      stop: []
+    mode: chat
+    name: gpt-4o
+    provider: openai
+  more_like_this:
+    enabled: false
+  opening_statement: 안녕하세요! 저는 여러분의 질문에 답변하기 위해 웹 검색 도구를 활용하는 스마트 에이전트입니다. 궁금한 점이
+    있으시면 언제든지 물어보세요. 전문적이고 정확한 정보를 제공해 드리겠습니다.
+  pre_prompt: "```xml\n<instruction>\nYou are a smart agent tasked with answering\
+    \ user questions by utilizing web search tools. \n\nFollow these steps to complete\
+    \ the task:\n\n1. Analyze the user's given question and determine the information\
+    \ that needs to be searched on the web.\n2. Use the `tavily_search` tool to search\
+    \ for the required information on the web.\n3. Write your response based on the\
+    \ information obtained from the web search.\n4. Ensure your response is written\
+    \ in Korean.\n5. The output should be formatted in {{output_format}} specified\
+    \ in the <output_format> section.\n6. Do not include any XML tags in your output.\n\
+    \n\nExample:\n<input>\n<user_question>What is the current population of South\
+    \ Korea?</user_question>\n<output_format>text</output_format>\n</input>\n\n<output>\n\
+    대한민국의 현재 인구는 약 5,200만 명입니다.\n</output>\n</instruction>\n\n\nYou must follow the\
+    \ output format below:\n<output_format>{{output_format}}</output_format>\n```"
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form:
+  - text-input:
+      default: ''
+      label: output_format
+      required: true
+      variable: output_format
+version: 0.1.5
